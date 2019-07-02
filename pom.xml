@@ -94,9 +94,9 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>1.2.58</version>
-		</dependency>
-	</dependencies>-->
-	
+		</dependency>-->
+	</dependencies>
+
 	<build>
 		<finalName>order</finalName>
 		<plugins>
