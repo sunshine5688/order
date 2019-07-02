@@ -1,0 +1,1 @@
+node {    //stage("stageName") {        // do something here    //}    stage("RunDemoJob1") {        echo "Now lets run DemoJob1!!!"        build job:"demoJob1"    }    stage("RunDemoJob2") {        echo "Now lets run DemoJob2!!!"        parameters: [            string(name: "demoParam2", value:"valueFromPipeline" )        ]        build job:"demoJob2"    }}
